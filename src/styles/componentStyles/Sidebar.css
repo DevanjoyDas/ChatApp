@@ -1,0 +1,66 @@
+.container-sidebar{
+    min-width: 300px;
+  flex: 40%;
+  border-right: 1px solid #3C4247;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 1000px) and (max-width: 1300px) {
+    flex: 35%;
+
+    & ~ div {
+      flex: 65%;
+    }
+  }
+
+  @media screen and (min-width: 1301px) {
+    flex: 30%;
+
+    & ~ div {
+      flex: 70%;
+    }
+  }
+
+  .icon {
+    color: rgb(145, 145, 145);
+  }
+}
+
+.header-sidebar{
+    background: #323739;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+    min-height: 60px;
+}
+
+.imgdiv-sidebar{
+    width: 40px;
+  height: 40px;
+}
+
+.img-sidebar{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.actions-sidebar{
+    margin-right: 20px;
+
+    & > * {
+      display: inline-block;
+      margin-left: 25px;
+      cursor: pointer;
+    }
+}
+
+.contacts-sidebar{
+  flex: 1;
+  overflow-y: scroll;
+  background:rgb(19, 28, 33);
+  border-top: 1px solid #3C4247;
+}

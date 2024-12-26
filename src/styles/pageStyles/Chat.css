@@ -1,0 +1,48 @@
+.container-chat{
+    display: flex;
+  position: relative;
+}
+
+.body-chat{
+    min-width: 300px;
+    flex: 40%;
+    border-right: 1px solid #3C4247;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-chat{
+    position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.05;
+  z-index: 1;
+  background: url("/assets/images/bg-chat-room.png") #e4dcd4;
+}
+
+.footercontainer-chat{
+  background: #323739;
+  position: relative;
+  z-index: 100;
+}
+
+.scrollbtn-chat{
+  position: absolute;
+  right: 15px;
+  bottom: 80px;
+  width: 42px;
+  height: 42px;
+  z-index: -1;
+  border-radius: 50%;
+  color: rgb(166, 168, 170);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(19, 28, 33);
+  box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}

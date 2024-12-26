@@ -1,0 +1,108 @@
+.contact-inboxcontact{
+    height: 72px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #323739;
+  cursor: pointer;
+  &:hover {
+    background-color: #323739;
+  }
+
+  .sidebar-contact__icons,
+  &:not(:focus) .sidebar-contact__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(24px);
+    transition: transform 0.5s ease;
+  }
+
+  &:hover .sidebar-contact__icons {
+    transform: translateX(0);
+  }
+
+  .sidebar-contact__icons > * {
+    margin-left: 8px;
+    color:rgb(145, 145, 145);
+  }
+
+  .icon {
+    color: #323739;
+  }
+}
+.activecontact-inboxcontact{
+    background-color: #323739;
+}
+
+.imgwrapper-contact{
+    width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.img-contact{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-contact{
+    overflow: hidden;
+  flex: 1;
+}
+
+.topcontent-contact{
+    margin-bottom: 2px;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name-contact{
+    color: rgba(241, 241, 242, 0.88);
+  font-size: 1rem;
+  font-weight: 500;
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.timespan-contact{
+    font-size: 0.7rem;
+  color:rgb(166, 168, 170)
+}
+
+.bottom-contact{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.msgwrapper-contact{
+    color:rgb(166, 168, 170);
+  font-size: 0.85rem;
+  margin-right: 3px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.unread-contact{
+    display: inline-block;
+  color: rgb(19, 28, 33) !important;
+  background-color: rgb(0, 175, 156);
+  border-radius: 18px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 3px;
+  line-height: 18px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+}

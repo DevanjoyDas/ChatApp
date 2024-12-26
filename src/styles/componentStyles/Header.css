@@ -1,0 +1,70 @@
+.container-header{
+    background:#323739;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 10px;
+  min-height: 60px;
+
+  z-index: 10;
+
+  .icon {
+    color:rgb(145, 145, 145);
+  }
+
+  .search-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.imgwrapper-header{
+    width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.avatar-header{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile-header{
+    flex: 1;
+  cursor: pointer;
+}
+.name-header{
+    color: rgba(241, 241, 242, 0.88);
+  font-size: 1rem;
+  margin-bottom: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.subtitle-header{
+    color:rgb(166, 168, 170);
+  font-size: 0.75rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.actions-header{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  
+    .action-menus-wrapper {
+      z-index: 20;
+    }
+}
+
+.button-header{
+    margin-left: 25px;
+    cursor: pointer;
+}
