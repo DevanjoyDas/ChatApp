@@ -9,7 +9,6 @@ import Footer from "../components/ChatComponents/Footer";
 export default function Chat() {
   const {
     activeInbox,
-    handleMenuOpen,
     handleShowIcon,
     isShowIcon,
     setShouldScrollToBottom,
@@ -24,8 +23,6 @@ export default function Chat() {
           <Header
             title={activeInbox?.name ?? ""}
             image={activeInbox?.image ?? ""}
-            onSearchClick={() => handleMenuOpen("search")}
-            onProfileClick={() => handleMenuOpen("profile")}
           />
           <MessagesList
             onShowBottomIcon={handleShowIcon}

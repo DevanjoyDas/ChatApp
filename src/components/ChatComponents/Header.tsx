@@ -5,7 +5,6 @@ import "../../styles/componentStyles/Header.css"
 type HeaderProps = {
   title: string;
   image: string;
-  subTitle: string;
 };
 
 export default function Header(props: HeaderProps) {
