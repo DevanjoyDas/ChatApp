@@ -11,7 +11,7 @@ type User = {
 type ChatContextProp = {
   user: User;
   inbox: Inbox[];
-  activeChat?: Inbox;
+  activeChat?: Inbox | null ;
   onChangeChat: (chat: Inbox) => void;
   setInbox: React.Dispatch<React.SetStateAction<Inbox[]>>;
 };
@@ -73,7 +73,7 @@ export default function ChatProvider(props: { children: any }) {
           payload: {
             user: storedUser || initialState.user,
             inbox: storedInbox || initialState.inbox,
-            activeChat: storedActiveChat
+            activeChat: storedActiveChat || undefined
           }
         });
       } catch (err) {
