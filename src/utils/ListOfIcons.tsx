@@ -1,6 +1,6 @@
 
 const icons = {
-  attach: (props) => (
+  attach: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -8,7 +8,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  attachCamera: (props) => (
+  attachCamera: (props : any) => (
     <span data-testid="attach-camera" data-icon="attach-camera" className="_1SWzr">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const icons = {
       </svg>
     </span>
   ),
-  attachContacts: (props) => (
+  attachContacts: (props : any) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -77,7 +77,7 @@ const icons = {
       </g>
     </svg>
   ),
-  attachDocument: (props) => (
+  attachDocument: (props : any) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -110,7 +110,7 @@ const icons = {
       </g>
     </svg>
   ),
-  attachImage: (props) => (
+  attachImage: (props : any) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -144,7 +144,7 @@ const icons = {
       </g>
     </svg>
   ),
-  attachRooms: (props) => (
+  attachRooms: (props : any) => (
     <svg
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
@@ -181,12 +181,12 @@ const icons = {
       </g>
     </svg>
   ),
-  back: (props) => (
+  back: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path fill="currentColor" d="M12 4l1.4 1.4L7.8 11H20v2H7.8l5.6 5.6L12 20l-8-8 8-8z"></path>
     </svg>
   ),
-  block: (props) => (
+  block: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -194,7 +194,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  cancel: (props) => (
+  cancel: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -202,7 +202,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  chat: (props) => (
+  chat: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -210,7 +210,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  check: (props) => (
+  check: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" id="check" viewBox="0 0 18 13" fill="none" {...props}>
       <path
         d="M6.99974 10.172L16.1917 0.979004L17.6067 2.393L6.99974 13L0.635742 6.636L2.04974 5.222L6.99974 10.172Z"
@@ -218,7 +218,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  delete: (props) => (
+  delete: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -226,7 +226,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  doubleTick: (props) => (
+  doubleTick: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15" width="16" height="15" {...props}>
       <path
         fill="currentColor"
@@ -234,7 +234,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  downArrow: (props) => (
+  downArrow: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 20" width="19" height="20" {...props}>
       <path
         fill="currentColor"
@@ -242,7 +242,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  emojiActivity: (props) => (
+  emojiActivity: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -254,7 +254,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  emojiFlags: (props) => (
+  emojiFlags: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -262,7 +262,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  emojiFood: (props) => (
+  emojiFood: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -274,7 +274,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  emojiNature: (props) => (
+  emojiNature: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -282,7 +282,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  emojiObjects: (props) => (
+  emojiObjects: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -294,7 +294,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  emojiPeople: (props) => (
+  emojiPeople: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -306,7 +306,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  emojiSymbols: (props) => (
+  emojiSymbols: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -318,7 +318,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  emojiTravel: (props) => (
+  emojiTravel: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -326,7 +326,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  gif: (props) => (
+  gif: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -334,10 +334,10 @@ const icons = {
       ></path>
     </svg>
   ),
-  heart: (props) => (
+  heart: (props : any) => (
     <i className={`fa fa-heart ${props.className ?? ""}`} aria-hidden="true" {...props} />
   ),
-  laptop: (props) => (
+  laptop: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 18" width="21" height="18" {...props}>
       <path
         fill="currentColor"
@@ -345,7 +345,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  lock: (props) => (
+  lock: (props : any) => (
     <svg
       width="10px"
       height="12px"
@@ -360,7 +360,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  menu: (props) => (
+  menu: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -368,7 +368,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  microphone: (props) => (
+  microphone: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -376,7 +376,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  notification: (props) => (
+  notification: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" {...props}>
       <path
         fill="currentColor"
@@ -384,7 +384,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  noWifi: (props) => (
+  noWifi: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" {...props}>
       <path
         fill="currentColor"
@@ -392,7 +392,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  pinned: (props) => (
+  pinned: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19" width="19" height="19" {...props}>
       <path
         fill="currentColor"
@@ -400,7 +400,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  recent: (props) => (
+  recent: (props : any) => (
     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         d="M20.538 11.975a8.563 8.563 0 1 0-17.126 0 8.563 8.563 0 0 0 17.126 0zm1.412 0c0 5.509-4.466 9.975-9.975 9.975C6.465 21.95 2 17.484 2 11.975 2 6.465 6.466 2 11.975 2c5.509 0 9.975 4.466 9.975 9.975zm-9.832-5.27v5.692l4.386 2.627a.706.706 0 1 1-.725 1.212l-5.073-3.04v-6.49a.706.706 0 1 1 1.412 0z"
@@ -408,7 +408,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  rightArrow: (props) => (
+  rightArrow: (props : any) => (
     <span
       data-testid="chevron-right-alt"
       data-icon="chevron-right-alt"
@@ -423,7 +423,7 @@ const icons = {
       </svg>
     </span>
   ),
-  search: (props) => (
+  search: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -431,7 +431,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  send: (props) => (
+  send: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -439,7 +439,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  singleTick: (props) => (
+  singleTick: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15" width="16" height="15" {...props}>
       <path
         fill="currentColor"
@@ -447,7 +447,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  smiley: (props) => (
+  smiley: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -455,7 +455,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  status: (props) => (
+  status: (props : any) => (
     <svg
       id="df9d3429-f0ef-48b5-b5eb-f9d27b2deba6"
       xmlns="http://www.w3.org/2000/svg"
@@ -471,7 +471,7 @@ const icons = {
       <path fill="#009588" d="M19 1.5a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"></path>
     </svg>
   ),
-  sticker: (props) => (
+  sticker: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"
@@ -479,7 +479,7 @@ const icons = {
       ></path>
     </svg>
   ),
-  thumbsDown: (props) => (
+  thumbsDown: (props : any) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" {...props}>
       <path
         fill="currentColor"

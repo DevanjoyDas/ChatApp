@@ -21,7 +21,7 @@ export const useIndexedDB = () => {
   useEffect(() => {
     const request = indexedDB.open(DB_NAME, DB_VERSION);
 
-    request.onerror = (event) => {
+    request.onerror = () => {
       setError(new Error('Failed to open IndexedDB'));
       setIsLoading(false);
     };
