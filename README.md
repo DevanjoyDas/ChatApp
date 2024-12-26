@@ -7,6 +7,7 @@ A modern chat application built with React, TypeScript, and Vite.
 - Node.js (>= 16.0.0)
 - npm or yarn
 - Modern web browser
+- TypeScript (Installed Locally or Globally)
 
 ## Tech Stack
 
